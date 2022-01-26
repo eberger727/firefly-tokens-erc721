@@ -1,0 +1,28 @@
+{
+  "solidity.compileUsingRemoteVersion": "v0.6.12+commit.27d51765",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": ["javascript"],
+  "solidity.defaultCompiler": "remote",
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#701a79",
+    "activityBar.activeBorder": "#000000",
+    "activityBar.background": "#701a79",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#000000",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "sash.hoverBorder": "#701a79",
+    "statusBar.background": "#49114f",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#701a79",
+    "statusBarItem.remoteBackground": "#49114f",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#49114f",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#49114f99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#49114f"
+}
