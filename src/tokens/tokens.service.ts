@@ -185,12 +185,12 @@ export class TokensService {
   async transfer(dto: TokenTransfer): Promise<AsyncResponse> {
     const response = await lastValueFrom(
       this.http.post<EthConnectAsyncResponse>(
-        `${this.contractInstanceUrl}/${dto.poolId}/safeTransferFrom`,
+        `${this.contractInstanceUrl}/${dto.poolId}/_safeTransferFrom`,
         {
           from: dto.from,
           to: dto.to,
           tokenId: dto.tokenId,
-          data: encodeHex(dto.data ?? ''),
+          _data: encodeHex(dto.data ?? ''),
         },
         this.postOptions(dto.operator, dto.requestId),
       ),
